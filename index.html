@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-3">Dungeons & Dragons</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#SobreDnd" class="nav-link active">Sobre D&D</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#guias-iniciantes" class="nav-link">Guias para iniciantes</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#aventuras" class="nav-link">Aventuras Oficiais</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="SobreDnd">
+            <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="d-block w-100" src="./imagens-d&d/slide1.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="d-block w-100" src="./imagens-d&d/slide2.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="d-block w-100" src="./imagens-d&d/slide3.jpg">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <buttton type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></buttton>
+                    <buttton type="button" data-bs-target="#carousel" data-bs-slide-to="1"></buttton>
+                    <buttton type="button" data-bs-target="#carousel" data-bs-slide-to="2"></buttton>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens-d&d/sobre.png" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2>Sobre o <span class="title-color">Dungeons and Dragons</span></h2>
+                            <p>Dungeons & Dragons (comumente abreviado como D&D ou DnD) é um jogo de interpretação (role-playing game, ou RPG) bem estruturado e cooperativo (normalmente não há vencedores), no qual, cada jogador controla, tipicamente, um único personagem. Durante o curso do jogo, cada jogador dirige as ações de seu personagem e suas interações com outros personagens. Uma partida geralmente dura várias sessões, que são chamadas de aventuras. Um conjunto de aventuras relacionadas entre si é chamada de campanha.</p>
+                            <p>Os únicos materiais necessários para jogar são os livros de regras, uma ficha de personagem para cada jogador e alguns dados poliédricos. A quarta edição assume o uso de miniaturas ou marcadores sobre uma superfície quadriculada, itens que eram opcionais nas edições passadas, e voltou a ser opcional na quinta edição. Muitos outros itens estão disponíveis para melhorar o jogo, alguns dos mais populares, embora opcionais sejam livros de expansão de regras, aventuras prontas e cenários de campanha</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="guias-iniciantes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center"><span class="title-color">Guias</span> para Iniciantes</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 card">
+                        <img src="./imagens-d&d/capa1.jpg" class="d-block w-100 rounded">
+                        <h3 class="text-center">Livro do Jogador</h3>
+                        <p>
+                            O <span class="title-color">Livro do Jogador</span> é a principal referência para todo participante de uma mesa de Dungeons & Dragons. o livro contém as regras para criação de personagens, antecedentes e perícias, além das regras para passar de nível, exploração, combate.e muito mais. Use esse guia para criar personagens das raças e classes mais icônicas do D&D.
+                        </p>
+                    </div>
+                    <div class="col-md-4 card">
+                        <img src="./imagens-d&d/capa2.jpeg" class="d-block w-100 rounded">
+                        <h3 class="text-center">Livro do Mestre</h3>
+                        <p>
+                            O <span class="title-color">Livro do Mestre</span>  traz tudo que os mestres mais exigentes precisam para deixar suas aventuras cada vez mais completas e interessantes para os jogadores! Desde diversos itens mágicos até construção de cenários completos, o Livro do Mestre é essencial em todas as sessões de jogos.
+                        </p>
+                    </div>
+                    <div class="col-md-4 card">
+                        <img src="./imagens-d&d/capa3.jpg" class="d-block w-100 rounded">
+                        <h3 class="text-center">Manual dos Monstros</h3>
+                        <p>
+                            O <span class="title-color">Manual dos Monstros</span> reúne um verdadeiro acervo de criaturas icônicas presentes no universo de Dungeons & Dragons, incluindo dragões, gigantes, devoradores de mente e observadores. Este livro é um verdadeiro bestiário, repleto de ideias e criaturas prontas para os Mestres povoarem suas aventuras ou desafiarem os jogadores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aventuras" clas="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-3">Aventuras <span class="title-color">Oficiais</span></h2>
+                </div>
+                <div class="row pb-5">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-collumn nav-lista">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quinta-ed" class="fw-bold text-start nav-link title-color active">5⍛ edição</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quarta-ed" class="fw-bold text-start nav-link title-color">4⍛ edição</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#terceira-ed" class="fw-bold text-start nav-link title-color">3⍛ edição</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="quinta-ed">
+                                <div class="row">
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/Glitterdoom.png">
+                                        <h5 class="text-center title-color">Glitterdoom</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/curse-of-strahd.jpg">
+                                        <h5 class="text-center title-color">The Curse of Strahd</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/Out-of-the-abyss.jpg">
+                                        <h5 class="text-center title-color">Out of the Abyss</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="quarta-ed">
+                                <div class="row">
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/halls-of-undermountain.jpg">
+                                        <h5 class="text-center title-color">Halls of Undermountain</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/journey.jpg">
+                                        <h5 class="text-center title-color">Journey Through the Silver Caves</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/council-of-spiders.jpg">
+                                        <h5 class="text-center title-color">Council of Spiders</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="terceira-ed">
+                                <div class="row">
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/aventura_o_senhos_da_fortaleza_de_ferro.jpg">
+                                        <h5 class="text-center title-color">Lord of the Iron Fortress</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/aventura_a_cidadela_sem_sol.jpg">
+                                        <h5 class="text-center title-color">The Sunless Citadel</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/aventura_a_pedra_fundamental.jpg">
+                                        <h5 class="text-center title-color">The Standing Stone</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                    <div class="col-md-3 pt-3 pb-3">
+                                        <img class="d-block w-100" src="./imagens-d&d/aventura_o_poco_das_almas_perdidas.jpg">
+                                        <h5 class="text-center title-color">Bastion of Broken Souls</h5>
+                                        <button type="button" class="btn btn-success w-100 mt-2">Ver mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Entre em <span class="title-color">Contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label title-color">Nome:</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label title-color">E-mail:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label title-color">Sua Mensagem:</label>
+                                <textarea type="text" class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold btn-danger">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-5 title-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-5 title-color">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplar, 1234 bairo Bootstrap, Caxias do Sul - RS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
